@@ -1,6 +1,6 @@
 # ⚡ Bash Laravel Optimizer 
 
-![Laravel Optimizer Banner](https://raw.githubusercontent.com/Iqbolshoh/bash-laravel-optimizer/main/banner.png)
+![Laravel Optimizer Banner](./banner.png)
 
 A powerful and interactive **Bash-based Laravel optimization tool** 🧠 designed to streamline your development workflow with cool CLI animations, Laravel-specific commands, and environment setup utilities.
 
