@@ -36,8 +36,8 @@ This tool automates routine tasks for Laravel development including:
 
 ```bash
 curl -o optimizer.sh https://raw.githubusercontent.com/Iqbolshoh/bash-laravel-optimizer/main/optimizer.sh
-chmod +x optimize.sh
-./optimize.sh
+chmod +x optimizer.sh
+./optimizer.sh
 ```
 
 ---
