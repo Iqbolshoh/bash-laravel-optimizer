@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 🚀 Laravel Optimizer Pro
-# Version: 4.0
+# Version: 4.1
 # Purpose: Supercharge Laravel projects with rich animations and optimizations
 # Author: Iqbolshoh
 # Github: https://github.com/Iqbolshoh
