@@ -36,7 +36,6 @@ This tool automates routine tasks for Laravel development including:
 
 ```bash
 git clone https://github.com/Iqbolshoh/bash-laravel-optimizer.git
-cd bash-laravel-optimizer
 chmod +x optimize.sh
 ./optimize.sh
 ```
