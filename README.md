@@ -1,4 +1,4 @@
-# ⚡ Bash Laravel Optimizer
+# ⚡ Bash Laravel Optimizer 
 
 ![Laravel Optimizer Banner](https://raw.githubusercontent.com/Iqbolshoh/bash-laravel-optimizer/main/banner.png)
 
