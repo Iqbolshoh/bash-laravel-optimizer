@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 🚀 Laravel Optimizer Pro
-# Version: 3.1
+# Version: 4
 # Purpose: Supercharge Laravel projects with rich animations and optimizations
 # Author: Iqbolshoh
 
@@ -69,7 +69,7 @@ print_message() {
             ;;
         error) 
             echo -e "${RED}✘ Error: ${message}${NC}"
-            show_execution_time
+            display_final_message
             exit 1 
             ;;
         info) 
@@ -154,24 +154,6 @@ star_animation() {
         sleep 0.2
     done
     echo -e "${NC}\n"
-}
-
-# Display percentage loader
-percentage_loader() {
-    local message=$1
-    local duration=$2
-    local increment=$(( 100 / (duration * 10) ))
-    local progress=0
-    
-    echo -ne "\r${message} ${progress}%"
-    
-    while [ $progress -lt 100 ]; do
-        sleep 0.1
-        progress=$(( progress + increment ))
-        [ $progress -gt 100 ] && progress=100
-        echo -ne "\r${message} ${progress}%"
-    done
-    echo ""
 }
 
 # Check if command exists
@@ -424,7 +406,7 @@ start_development_server() {
 }
 
 # Show execution time
-show_execution_time() {
+display_final_message() {
     local end_time=$(date +%s)
     local duration=$((end_time - START_TIME))
     local minutes=$((duration / 60))
@@ -451,4 +433,4 @@ optimize_composer
 build_frontend
 handle_database
 start_development_server
-show_execution_time
+display_final_message
