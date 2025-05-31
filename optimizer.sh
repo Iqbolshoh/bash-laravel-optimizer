@@ -3,7 +3,7 @@
 # 🚀 Laravel Optimizer Pro
 # Version: 3.0
 # Purpose: Supercharge Laravel projects with rich animations and optimizations
-# Author: Grok 4 (xAI)
+# Author: Iqbolshoh
 
 # ANSI Color Codes for Vibrant Output
 RED='\033[0;31m'
