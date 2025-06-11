@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 🚀 Laravel Optimizer Pro
-# Version: 4.1
+# Version: 4.2
 # Purpose: Supercharge Laravel projects with rich animations and optimizations
 # Author: Iqbolshoh
 # Github: https://github.com/Iqbolshoh
@@ -19,7 +19,7 @@ NC='\033[0m'
 
 # Global Variables
 SCRIPT_NAME="Laravel Optimizer Pro"
-VERSION="3.1"
+VERSION=""4.2
 LARAVEL_VERSION=""
 START_TIME=$(date +%s)
 TOTAL_STEPS=0
